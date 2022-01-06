@@ -125,7 +125,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16.5pt;
+		font-size: 18pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -133,7 +133,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -141,7 +141,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -149,7 +149,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -157,7 +157,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -165,7 +165,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -275,19 +275,19 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.7em;
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.2em;
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 0.9em;
 	}
 
 	h5 {
-		font-size: 0.7em;
+		font-size: 0.9em;
 	}
 
 	h6 {
@@ -297,11 +297,11 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 		h3 {
-			font-size: 0.8em;
+			font-size: 1.0em;
 		}
 
 	}
@@ -3547,7 +3547,31 @@ input, select, textarea {
 		}
 
 /* Wrapper */
-
+.major{
+	text-align: left;
+}
+.intro{
+	text-align: justify;
+	font-size: 17px;
+	letter-spacing: 0.1em;
+	padding-right: 20px;
+}
+.line{
+	font-size: 17px;
+	font-weight: lighter;	
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	padding-bottom: 10px;
+}
+.shead{
+	font-weight: 700 ;
+}
+.s1{
+float: left;
+padding-right: 20%;
+}
+.s2{
+float: right;
+}
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
 	}
@@ -3563,12 +3587,14 @@ input, select, textarea {
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
 		}
-
+		#wrapper > header h6 {
+			letter-spacing: 0.2em;
+		}
 		#wrapper > header p {
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: 1.5em;
 			font-weight: 200;
-			letter-spacing: 0.1em;
+			letter-spacing: 0.5em;
 			line-height: 2;
 			text-transform: uppercase;
 		}
@@ -3619,7 +3645,7 @@ input, select, textarea {
 			}
 
 			#wrapper > header p {
-				font-size: 0.8em;
+				font-size: 1.4em;
 			}
 
 	}
@@ -3718,7 +3744,7 @@ input, select, textarea {
 				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
 			}
 
-		.wrapper.style4 {
+		.wrapper.style4.three {
 			background-color: #454858;
 		}
 
